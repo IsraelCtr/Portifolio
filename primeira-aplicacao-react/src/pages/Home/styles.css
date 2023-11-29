@@ -1,0 +1,65 @@
+.conteudo{ display: flex;
+          align-items: flex-start;
+         position: relative;
+        justify-content: flex-start;}
+.background{
+    display: flex;
+    height: 200px;
+    border-radius: 24%;
+    justify-content: flex-start;
+    margin: 10px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.395);
+}
+.skills{
+      display: flex;
+      width: 90%;
+      margin: 20px;
+    margin: 20px;
+    align-items: flex-end;
+    }
+.tecnologias{
+    display: flex;
+    width: 50px;
+    margin: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0F0F0F ;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.395);
+}
+.tecnologias:hover{
+        transition: 0.5s;
+        box-shadow: 5px 10px 20px rgba(245, 245, 245, 0.395);
+        background-color: #232D3F;
+        flex-wrap: wrap;
+}
+.projetos{display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.titulo{display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        padding-left: 47px;
+    color: #008170;}
+#titulo{
+    width: 28px;}
+.educação{display: flex;}
+
+.imgEducação{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    background-color: #0F0F0F ;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.395);
+}
+.imgEducação:hover{transition: 0.5s;
+    box-shadow: 5px 10px 20px rgba(245, 245, 245, 0.395);
+    background-color: #232D3F;
+    flex-wrap: wrap;}
+#diploma{width: 58px;}

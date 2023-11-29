@@ -1,0 +1,15 @@
+Button{
+        width: 200px;
+        height: 250px;
+        background-color: #0F0F0F;
+        border-radius: 20px;
+        display: flex;
+        margin: 20px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.395);
+        border: none;
+}
+Button:hover{
+        transition: 0.5s;
+        box-shadow: 5px 10px 20px rgba(245, 245, 245, 0.395);
+        background-color: #232D3F;
+}

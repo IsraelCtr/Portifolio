@@ -1,0 +1,31 @@
+Header{ 
+    width: 100%;
+    background-color: #171d29;
+    color: #008170;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+h1{font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    margin-left: 1%;
+    margin-right: 25%;
+}
+#home{color:#008170;
+width: 30px;
+height: 30px;
+margin-top: 9px;
+margin-bottom: 5px;}
+
+a{  font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: #008170;
+    font-size: 23px;
+    }
+
+a:hover{
+    transition: 0.3s;
+    color: #05aa7b;
+}
