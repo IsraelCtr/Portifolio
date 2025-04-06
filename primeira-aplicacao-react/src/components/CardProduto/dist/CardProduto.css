@@ -1,0 +1,44 @@
+@charset "UTF-8";
+* {
+  font-family: montsserat;
+}
+
+@font-face {
+  font-family: montsserat;
+  src: url(../../assets/fonts/static/Montserrat-Mediun.ttf);
+}
+.containerProduto {
+  display: flex;
+  font-family: Montserrat;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.produtoimg {
+  box-shadow: 5px 10px 20px rgba(48, 48, 48, 0.395);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.listaEstilo {
+  list-style-type: none;
+  /* Remove os pontos */
+  padding-left: 0;
+  cursor: pointer;
+  font-family: montsserat;
+}
+
+.idProduto {
+  display: none;
+}
+
+.preçoCheio {
+  font-size: 110%;
+  text-decoration: line-through;
+  color: rgba(124, 124, 124, 0.77);
+}

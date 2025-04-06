@@ -1,70 +1,52 @@
-import Header from '../../components/Header/index'
-import Educação from '../../components/educacao/index'
+import Header from '../../components/Header/index';
+import Educação from '../../components/educacao/index';
+import { Projetos } from '../../components/projetos/projetos';
+import projetos from '../../assets/projetos.png';
+import diploma from '../../assets/diploma.png';
+import { Skills } from '../../components/skills/skills';
+import { Admin } from '../../components/admin/admin';
 
-import admim from '../../assets/foto.png'
-import java from '../../assets/java.png'
-import py from '../../assets/python.512x509.png'
-import flask from '../../assets/flask.png'
-import mysql from '../../assets/file-type-mysql.256x252.png'
-import react from '../../assets/react.png'
-import projetos from '../../assets/projetos.png'
-import skill from '../../assets/skill.png'
-import faculdade from '../../assets/faculdade.png'
+import './styles.css';
+import { useState } from 'react';
+import AboutMe from '../../components/AboultMe/AboutMe.js';
+import CardProjeto from '../../components/CardProduto/CardProduto';
 
-import diploma from '../../assets/diploma.png'
-import {useState} from 'react'
+function Home() {
+  const [user, setUser] = useState('');
 
-import AboutMe from '../../components/AboultMe'
-import Button from '../../components/Button'
-import'./styles.css'
-function App() {
-  const[user,setUser] = useState('');
   return (
     <div className='App'>
-        <Header />
-        <div className='conteudo'>
-            <img src={admim} className="background" alt='background app'/>
-            <AboutMe/>
-            <hr/>
-        </div>
-        <hr/>
-        <div className='titulo'>
-        
-          <h1>
-            Projetos <img id='titulo' src={projetos}/>
-            </h1>
-            </div>
-        <div className='projetos'>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-          <Button/>
-        </div>
-        <hr/>
-        <div className='titulo'>
-          <h1>Skills <img id='titulo' src={skill}/></h1> 
-        </div>
-        <div className='skills'>
-        <img src={java} className="tecnologias" alt='background app'/>
-        <img src={py} className="tecnologias" alt='background app'/>
-        <img src={flask} className="tecnologias" alt='background app'/>
-        <img src={mysql} className="tecnologias" alt='background app'/>
-        <img src={react} className="tecnologias" alt='background app'/>
-        </div>
-        <hr/>
-        <div className='titulo'>
-          <h1>Educação <img id='diploma' src={diploma}/></h1> 
-        </div>
-        <div className='educação'>
-        <img src={faculdade} className="imgEducação" alt='background app'/>
-        <Educação/>
-        
-        </div>
+      <Header />
+      <Admin />
+      <div className='conteudo'>
+        <AboutMe/>
+        <hr />
+      </div>
+      <hr />
+      <div className='titulo'>
+        <h1>Skills</h1>
+      </div>
+      <Skills />
+      <div className='titulo'>
+        <h1>
+          Projetos <img id='titulo' src={projetos} alt="Projetos" />
+        </h1>
+      </div>
+      
+     <Projetos>
+      <CardProjeto/> 
+      </Projetos>
+      <hr />
+      <div className='titulo'>
+        <h1>
+          Educação <img id='diploma' src={diploma} alt="Diploma" />
+        </h1>
+      </div>
+      <div className='educação'>
+        <Educação />
+      </div>
     </div>
-  )
+  );
 }
-export default App
+
+export default Home;

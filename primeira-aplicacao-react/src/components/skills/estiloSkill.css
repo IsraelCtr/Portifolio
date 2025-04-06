@@ -1,0 +1,47 @@
+.skills{
+    display: flex;
+    width: 90%;
+    margin: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between
+  }
+.tecnologias{
+  display: flex;
+  width: 50px;
+  margin: 20px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+
+.containerImgTecnologia{
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 10px 20px rgba(24, 24, 24, 0.395);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+ background-color: rgb(94, 94, 94);
+}
+.containerImgTecnologia:hover{
+  transition: 0.5s;
+  box-shadow: 5px 10px 20px rgba(245, 245, 245, 0.395);
+  background-color: rgba(240, 240, 240, 0.829);
+  flex-wrap: wrap;
+}
+.barraProeficiencia{
+
+  height: 20px;
+  width: 10rem;
+  padding: 5px;
+  border: solid #0F0F0F;
+}
+
+.barraProeficiencia:hover{
+
+ transition: 0.4s;
+ animation: forwards;
+background-color: rgb(33, 112, 182);
+
+}

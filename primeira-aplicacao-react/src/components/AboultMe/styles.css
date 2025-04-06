@@ -1,15 +1,36 @@
-.AboutMe{display: flex;
+.AboutMe{
+    display: flex;
     width: 60%;
     height: auto;
     margin-right: 79px;
-    margin-top: 20px;
     color:#fff;
     }
-p{  padding: 5%;
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.395);
+.containerLinhaDoTempo{
+    padding: 5%;
+    box-shadow: 5px 10px 20px rgba(48, 48, 48, 0.395);
     border-radius: 10px;
     margin:20px;
     display: flex;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin-bottom: 40px;
     }
+.containerLinhaDoTempo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cardTimeLine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}
+#q{
+width: 2px;
+height: 40px;
+background-color: #fff;
+border-radius: 20px;
+}
