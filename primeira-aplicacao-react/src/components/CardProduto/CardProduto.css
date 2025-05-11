@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 80px;
     
 }
 .produtoimg{

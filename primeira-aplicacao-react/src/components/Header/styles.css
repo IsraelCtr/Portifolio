@@ -3,11 +3,12 @@ Header{
     ;
         align-items: center;
         justify-content: space-around;
-        position: sticky;
+        position: fixed;
         top: 0;
         z-index: 1000;
         width: 100%;
-        padding: 1rem 0;
+        padding: 0.5rem 0;
+        margin-bottom: 10rem;
 }
 h1{font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Oswald', sans-serif;

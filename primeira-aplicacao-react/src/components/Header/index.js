@@ -13,7 +13,7 @@ const Header = ({ skillsRef, projetosRef, educacaoRef, aboutMeRef }) => {
     <header>
       <div className="titulo">
         <a className="rodape" onClick={() => scrollTo(aboutMeRef)}>
-          Sobre Mim
+          Sobre
         </a>
         
         <a className="rodape" onClick={() => scrollTo(skillsRef)}>

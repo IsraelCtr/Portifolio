@@ -24,8 +24,9 @@
 .cardTimeLine{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin: 20px;
+    
     
 }
 #q{
@@ -33,4 +34,6 @@ width: 2px;
 height: 40px;
 background-color: #ffffff;
 border-radius: 20px;
+margin-left: 20px;
+margin-top: 10px;
 }

@@ -6,5 +6,8 @@ export const Projetos=() =>{
     return(
 <div className='projetos'>
 <CardProjeto/>
+<CardProjeto/>
+<CardProjeto/>
+<CardProjeto/>
         </div>  
     )  }
