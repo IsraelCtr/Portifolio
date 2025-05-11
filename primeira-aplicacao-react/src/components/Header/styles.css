@@ -1,10 +1,13 @@
 Header{ 
-    width: 100%;
-    background-color: #171d29;
-    color: #008170;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: flex
+    ;
+        align-items: center;
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        padding: 1rem 0;
 }
 h1{font-family: 'Kdam Thmor Pro', sans-serif;
     font-family: 'Oswald', sans-serif;
@@ -12,20 +15,26 @@ h1{font-family: 'Kdam Thmor Pro', sans-serif;
     margin-left: 1%;
     margin-right: 25%;
 }
+
 #home{color:#008170;
 width: 30px;
 height: 30px;
 margin-top: 9px;
 margin-bottom: 5px;}
 
+.titulo{
+    margin-left: 40px;
+    height: 100%;
+   
+}	
 a{  font-family: 'Kdam Thmor Pro', sans-serif;
     margin-top: 5px;
-    margin-left: 50px;
-    color: #008170;
+    margin-left: 40%;
+    color: #ffffff;
     font-size: 23px;
     }
 
 a:hover{
     transition: 0.3s;
-    color: #05aa7b;
+    color: #ffff02;
 }

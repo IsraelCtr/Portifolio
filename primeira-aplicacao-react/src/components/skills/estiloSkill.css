@@ -1,11 +1,11 @@
 .skills{
-    display: flex;
-    width: 90%;
-    margin: 20px;
+  display: flex;
+  width: 90%;
   margin: 20px;
   flex-wrap: wrap;
-  justify-content: space-between
-  }
+  justify-content: flex-start;
+}
+
 .tecnologias{
   display: flex;
   width: 50px;
@@ -22,26 +22,65 @@
   border-radius: 10px;
   margin: 20px;
   padding: 10px;
- background-color: rgb(94, 94, 94);
-}
-.containerImgTecnologia:hover{
+  background-color: rgb(223, 223, 223);
   transition: 0.5s;
+}
+
+.containerImgTecnologia:hover{
   box-shadow: 5px 10px 20px rgba(245, 245, 245, 0.395);
-  background-color: rgba(240, 240, 240, 0.829);
-  flex-wrap: wrap;
+  background-color: rgb(255, 242, 0);
 }
+
 .barraProeficiencia{
-
-  height: 20px;
-  width: 10rem;
-  padding: 5px;
-  border: solid #0F0F0F;
+  height: 10px;
+  width: 1rem; /* Começa com 0 */
+  margin: 5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.barraProeficiencia1{
+  height: 10px;
+  width: 1rem; /* Começa com 0 */
+  margin: 5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
 }
 
-.barraProeficiencia:hover{
+/* Níveis de proficiência para cada tecnologia */
+.containerImgTecnologia:hover .barraProeficiencia:nth-child(1) {
+  width: 1rem; /* Ajuste conforme sua habilidade */
+  background-color: #f0f0f0; /* Cor para nível alto */transition: 1.2s;
+}
 
- transition: 0.4s;
- animation: forwards;
-background-color: rgb(33, 112, 182);
+.containerImgTecnologia:hover
+ .barraProeficiencia:nth-child(2) {
+  width: 1rem; /* Ajuste conforme sua habilidade */
+  background-color: #ffffff; /* Cor para nível médio */
+  transition: 1.5s;
+}
 
+.containerImgTecnologia:hover
+ .barraProeficiencia:nth-child(3) {
+  width: 1rem; /* Ajuste conforme sua habilidade */
+  background-color: #ffffff;
+   /* Cor para nível básico */
+   transition: 2s;
+}
+
+.barraSkill{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding: 5px;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+margin :2px;
+  color: #ffffff;
+  display: block;
+  height: 30px;
+  width: 100%;
 }

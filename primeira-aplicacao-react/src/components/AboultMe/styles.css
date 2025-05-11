@@ -3,7 +3,7 @@
     width: 60%;
     height: auto;
     margin-right: 79px;
-    color:#fff;
+    color:#000000;
     }
 .containerLinhaDoTempo{
     padding: 5%;
@@ -11,9 +11,9 @@
     border-radius: 10px;
     margin:20px;
     display: flex;
-    color: #fff;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: rgb(220, 220, 220);
     margin-bottom: 40px;
     }
 .containerLinhaDoTempo{
@@ -31,6 +31,6 @@
 #q{
 width: 2px;
 height: 40px;
-background-color: #fff;
+background-color: #ffffff;
 border-radius: 20px;
 }

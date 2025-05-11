@@ -1,7 +1,7 @@
 .conteudo{ display: flex;
-          align-items: flex-start;
+          align-items: space-around;
          position: relative;
-        justify-content: flex-start;}
+        justify-content: space-around;}
 
 
 .background{
@@ -21,7 +21,7 @@
         justify-content: space-between;
         margin: 10px;
         padding-left: 47px;
-    color: #008170;}
+    color: #ffff00;}
 #titulo{
     width: 28px;}
 
