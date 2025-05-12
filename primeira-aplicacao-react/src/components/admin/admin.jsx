@@ -1,12 +1,11 @@
 import "./estiloAdmin.css"
-import admim from '../../assets/foto.png'
+import admim from '../../assets/adm.png'
 import { useState } from "react"
 
 export const Admin =()=>{
     
     const [textoCopiado, setTextoCopiado] = useState(false);
 
-  // Função para copiar o texto e mostrar a notificação
   const copiarTexto = () => {
     const texto = "israel.castro.imc@gmail.com";
     navigator.clipboard.writeText(texto)

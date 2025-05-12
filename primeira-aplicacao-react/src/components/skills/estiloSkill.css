@@ -47,27 +47,40 @@
   border: 1px solid #000000;
   border-radius: 10px;
   transition: width 1s ease-in-out;
+  display: block;
+  align-items: end;
 }
 
 /* Níveis de proficiência para cada tecnologia */
 .containerImgTecnologia:hover .barraProeficiencia:nth-child(1) {
   width: 1rem; /* Ajuste conforme sua habilidade */
-  background-color: #f0f0f0; /* Cor para nível alto */transition: 1.2s;
+  height: 1rem;
+  background-color: #f0f0f0; /* Cor para nível alto */transition: 1s;
 }
 
 .containerImgTecnologia:hover
  .barraProeficiencia:nth-child(2) {
   width: 1rem; /* Ajuste conforme sua habilidade */
+  height: 2rem;
   background-color: #ffffff; /* Cor para nível médio */
-  transition: 1.5s;
+  transition: 1s;
 }
 
 .containerImgTecnologia:hover
  .barraProeficiencia:nth-child(3) {
   width: 1rem; /* Ajuste conforme sua habilidade */
+  height: 3rem;
   background-color: #ffffff;
    /* Cor para nível básico */
-   transition: 2s;
+   transition: 1s;
+}
+
+.containerImgTecnologia:hover
+ .barraProeficiencia1 {
+  width: 1rem; /* Ajuste conforme sua habilidade */
+  height: 3rem;
+  background-color: #ffffff00; /* Cor para nível básico */
+  transition: 1s;
 }
 
 .barraSkill{
@@ -75,6 +88,7 @@
   justify-content: space-evenly;
   margin: 5px;
   padding: 5px;
+  align-items: flex-end
 }
 h2{
   font-family: 'Oswald', sans-serif;

@@ -1,5 +1,11 @@
+.containerCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px
+}
 
-.containerProduto{
+.containerProduto {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
@@ -7,7 +13,10 @@
     padding-top: 80px;
     
 }
-.produtoimg{
+.containerporduto a {
+    margin:0;
+}
+.produtoimg {
     box-shadow: 5px 10px 20px rgba(48, 48, 48, 0.395);
     display: flex;
     align-items: center;
@@ -17,10 +26,21 @@
     background-color: rgb(255, 255, 255);
     width: 300px;
     height: 450px;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-bottom: 20px;
     
 
   
+}
+.produtoimg a{
+    margin:0;;
+}
+.produtoimg:hover{
+    box-shadow: 5px 10px 20px rgba(245, 245, 245, 0.395);
+    background-color: rgb(124, 124, 124);
+    transition: 0.5s;
+    width: 300px;
+    height: 450px;
 }
 .LinkEstilo{
     text-decoration: none;
@@ -28,8 +48,10 @@
 .containerimg{
     align-items: center;
 }
-.imagemProduto{
-
+#imagemProduto{
+    margin:0;
+width: 200px;
+padding-bottom: 50px;
 }
 .listaEstilo{
     display: flex;
